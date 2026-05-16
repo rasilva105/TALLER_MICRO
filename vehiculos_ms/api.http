@@ -1,0 +1,33 @@
+### Health check
+GET http://localhost:8001/test
+
+### Listar todos los vehículos
+GET http://localhost:8001/vehiculos
+
+### Vehículos disponibles
+GET http://localhost:8001/vehiculos/disponibles
+
+### Obtener vehículo por ID
+GET http://localhost:8001/vehiculos/1
+
+### Crear vehículo
+POST http://localhost:8001/vehiculos
+Content-Type: application/json
+
+{
+    "marca": "Toyota",
+    "modelo": "Corolla",
+    "anio": 2022,
+    "categoria": "Sedan"
+}
+
+### Cambiar estado
+PATCH http://localhost:8001/vehiculos/1/estado
+Content-Type: application/json
+
+{
+    "estado": "alquilado"
+}
+
+### Eliminar vehículo
+DELETE http://localhost:8001/vehiculos/1

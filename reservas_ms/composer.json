@@ -1,0 +1,6 @@
+{
+    "name": "alquiler/reservas-ms",
+    "description": "Microservicio de Reservas - Alquiler de Vehículos",
+    "type": "project",
+    "require": { "php": ">=8.1" }
+}
