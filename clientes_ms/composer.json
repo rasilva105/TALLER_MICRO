@@ -1,6 +1,0 @@
-{
-    "name": "alquiler/clientes-ms",
-    "description": "Microservicio de Clientes - Alquiler de Vehículos",
-    "type": "project",
-    "require": { "php": ">=8.1" }
-}
